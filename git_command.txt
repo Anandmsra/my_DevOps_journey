@@ -1,0 +1,23 @@
+git --version
+git init
+git add
+git commit
+git status
+.
+.
+git init
+git add <filename> ................................ to add file on track or to stage file
+git rm --cached <filename> ....................... to remove from track or to unstage file
+git commit -m "feat: new file added" ............. to commit file
+.
+.
+git config --global user.name .............................. to configure username globally
+git config --global user.email example@yourmail.com ........ to congigure user email globaly
+..
+..
+git log .................................................. to check git log file or what changes or what commit has done
+..
+..
+git branch .......................................... to check branches
+git checkout -b <branchname> ........................ to create a new branch, b stand for branch
+git checkout <branchname>    ........................ to change to existing branch
