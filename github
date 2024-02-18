@@ -1,0 +1,3 @@
+commands for github
+git clone "github url"
+git pull origion <branchname>
