@@ -1,3 +1,6 @@
 commands for github
-git clone "github url"
-git pull origion <branchname>
+git clone "github url"  ........... to clone repository to local
+git pull origion <branchname>  .... to pull repository to local
+git remote -v ..................... to check origin path or tocken
+git remote set-url origin <https://token@githubpath> ......  ... to set origin path with token or to set tocken
+git push origin <branch> ........... to push repository from local to github
