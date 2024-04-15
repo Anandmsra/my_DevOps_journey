@@ -1,0 +1,23 @@
+to build image from Dockerfile
+  docker build -t <tag-name:latest> <dockerfile location>
+to run docker container from docker image
+    docker run -itd --name <contaner_name> --network=<docker_network_name> -p <host_port>:<container_port> <image_name>
+        -it - itractive terminal
+        -d - detach mode(in background)
+      we can also pass environment variable if neccessery like database, database username, dbpassword etc.
+        -e MYSQL_DATABASE = mydb -e MYSQL_ROOT_PASSWORD = admin -e MYSQL_HOST = mysql
+to run container from docker-compose 
+        docker compose can use Dockerfile also.
+        docker-compose down - to remove running docker container
+        docker-compose up -d - to run container from docker-compose file
+
+
+  docker ps - to show running container
+  docker ps -a - to show all container
+  docker kill <container_id> - to kill running container
+  docker rm <container_id> - to remove stopped container
+  docker rmi <image_name> - to remove docker image
+  docker volume ls - to show docker volume
+  docker volume create <volume_name> - to create volume
+  docker network create <network_name>- to create network
+        by default network create by you is bridge-network
